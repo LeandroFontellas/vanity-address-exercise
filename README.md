@@ -11,7 +11,7 @@ Primeiramente instale as dependencias do projeto
 ```bash
 yarn
 ```
-Rode primeiramente o build da aplicação para o typescript ser transpilado para
+Agora rode o build da aplicação para o typescript ser transpilado para
 javascript
 ```bash
 npx tsc
