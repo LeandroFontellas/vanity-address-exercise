@@ -4,7 +4,7 @@ import { genRandomNum } from "./utils/genRandomNum"
 import { hasher } from "./utils/hasher";
 import { verifyIfBeautyExists } from "./utils/vanity";
 
-(async function main(){
+(function main(){
   let randomNumber = genRandomNum();
   let hashedNumber = hasher(randomNumber);
   let convertedNumber = convertHashedToBuffer(hashedNumber);
