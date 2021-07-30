@@ -6,7 +6,7 @@ import { verifyIfBeautyExists } from "./utils/vanity";
 
 (async function main(){
   let randomNumber = genRandomNum();
-  let hashedNumber = await hasher(randomNumber);
+  let hashedNumber = hasher(randomNumber);
   let convertedNumber = convertHashedToBuffer(hashedNumber);
   let encodedNumber = encodeToBase58(convertedNumber);
   
